@@ -1,0 +1,42 @@
+body {
+	background-color: #f1f1f1 !important;
+}
+.homTopSlider {
+	width: 100%;
+}
+.stepSlider .slick-list {
+	width: 1000px;
+}
+.stepSlider .slick-slide div {
+	margin: 0 10px;
+	border-radius: 10px;
+}
+.stepSlider .slick-arrow {
+	display: none !important;
+}
+.stepSlider .slick-dots li button::before{
+font-size: 10px;
+color: rgb(253, 253, 253) !important;
+}
+.slick-dots li.slick-active button:before{
+    color: #fff !important;
+}
+
+.stepSliderMobile .slick-list {
+	width: 300px;
+}
+.stepSliderMobile .slick-slide div {
+	margin: 0 2px;
+	border-radius: 10px;
+	display: flex;
+}
+.stepSliderMobile .slick-arrow {
+	display: none !important;
+}
+.stepSliderMobile .slick-dots li button::before{
+font-size: 10px;
+color: rgb(253, 253, 253) !important;
+}
+.slick-dots li.slick-active button:before{
+    color: #fff !important;
+}

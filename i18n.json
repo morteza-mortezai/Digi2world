@@ -1,0 +1,11 @@
+{
+  "locales": ["en", "de"],
+  "localeDetection": true,
+  "defaultLocale": "de",
+  "pages": {
+    "*": ["common"],
+    "/about": ["about"],
+    "/joinUs":["joinUs"],
+    "/working-at-digi2world":["joinUs"]
+  }
+}
